@@ -2,7 +2,7 @@
 	import * as d3 from 'd3'
   import { sankey, sankeyJustify, sankeyLinkHorizontal } from 'd3-sankey';
   import { fly } from "svelte/transition";
-  import data from "src/data/data.js";
+  import data from "/src/data/data.js";
 
   const margin = {
     top: 10,
